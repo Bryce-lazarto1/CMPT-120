@@ -14,8 +14,7 @@ def main():
     #make sure this one prints out the sum
     print("2 + 2")
 
-    #insert your name into this variable
-    name = ""
+    name = "
     print("Hello, my name is ", name)
 
     #insert your best friend's name here and have it print out
