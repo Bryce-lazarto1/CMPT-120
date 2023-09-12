@@ -2,7 +2,7 @@
 #Assignment 1: Debug.py
 #Fix any syntax errors you can spot and fulfill any other requests
 def main():
-    print(hello)
+    print("hello")
     print(3)
     print(10 + 10)
 
@@ -14,15 +14,15 @@ def main():
     #make sure this one prints out the sum
     print("2 + 2")
 
-    name = "
+    name ="Bryce"
     print("Hello, my name is ", name)
 
     #insert your best friend's name here and have it print out
-    name2 = ""
-    print("Hello, my best friend's name is ", name)
+    name2= "Aaron"
+    print("Hello, my best friend's name is ", name2)
     
     #put your age here
-    age = 
+    age = 18
     print("I'm " + name + " and i'm " + str(age) + " years old")
     
  
