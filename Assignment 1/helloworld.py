@@ -5,9 +5,13 @@
 
 
 def main():
+    print("hello world")
 
+fav1=("blue")
+print("my favorite color is " + str (fav1))
 
-
+bday="020105"
+print("my birthday is " +  str (bday))
     
     
     
