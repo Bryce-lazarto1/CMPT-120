@@ -1,20 +1,20 @@
 def main():
   
   #set this to any double
-  doubleValue =
+  doubleValue = 3.5
   
   #set this to any int
-  intValue = 
+  intValue =6
   
   #print out addition, subtraction, multiplication, and division of these two values
   
   
   
   #populate this list
-  myFriends = []
+  myFriends = ["Aaron,zac,josh,zach,dylan"]
   
   #print out your friends at index 2 and index 3
-  
+  print(myfriends())
   
   #populate this list with five numbers
   fiveNumbers = []
