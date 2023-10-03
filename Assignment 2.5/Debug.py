@@ -28,7 +28,7 @@ def main():
     even = input(int("4"))
     even = int(even)
     #what do we replace the question marks with?
-    if even % 2 == 0:
+    if even < 2 == 0:
         print("It's even")
     else:
         print("It's odd")
