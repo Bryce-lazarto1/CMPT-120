@@ -8,8 +8,13 @@ class Employee:
         self.name = name
         self.idNumber = idNumber
         self.department = department
-        
-class Cake:
+    class Cake:
+        def __init__(self, flavor, frosting):
+            self.flavor = flavor
+            self.frosting = frosting
+
+        def display_info(self):
+            print(f"Cake Flavor: {self.flavor}, Frosting: {self.frosting}")
     #can you fill out the rest of this for me? im dumb
     #the cake needs to have the cake flavor and cake frosting stored
 
@@ -33,35 +38,40 @@ class Car:
         self.color = color
         
     #create your own function! what do you want it to do?
-    
-   
+    class Car:
+        def display_info(self):
+            print(f"Car Model: {self.model}, Year: {self.year}, Color: {self.size}")
+
 def main():
-    #fill this one out with a dog's name and age.. can be your dog, friend's dog, etc
-    newDog = Dog(? , ?)
-    print(dog1.name, dog1.age)
-    
-    #and what about a new employee
-    newEmployee =
-    #how would we print out each of the variables from newEmployee?
-    print()
-    
-    #now create and print out a cake you make
-    
-    
-    
-    #and now create another cake and print it out
-    
-    
-    
-    #create a cat!
-    cat1 = Cat()
-    #create another cat!
-    
-    #What would we put here to print out the result of breedGuess for cat1?
-    print(cat1.?)
-    
-    #create a car!
-    
-    #Now print out the function you made for car :)
+    newDog = Dog("Buddy", 3)
+    print(newDog.name, newDog.age)
+
+    newEmployee = Employee("John Doe", 12345, "IT")
+    print(newEmployee.name, newEmployee.idNumber, newEmployee.department)
+
+    cake1 = Cake("Chocolate", "Vanilla")
+    print("Cake 1:")
+    cake1.display_info()
+
+    cake2 = Cake("double choco;ate", "strawberry")
+    print("Cake 2:")
+        cake2.display_info()
+
+        cat1 = Cat("Whiskers", 2, "long")
+        cat2 = Cat("Mittens", 1, "short")
+
+        print(f"{cat1.name}'s breed guess: {cat1.breedGuess()}")
+
+
+car1 = Car("KIA", 2023, "grey")
+
+print("Car information:")
+car1.display_info()
+
+if __name__ == "__main__":
+    main()
+
+
+        main()
 
 main()
