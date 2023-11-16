@@ -38,7 +38,12 @@ else:
     return ("false")
         print("false")
 
-    
-    
-    
 main():
+
+class Student:
+def FoodRaffle(studentid, name):
+    raniomid = random.randint(1,9999)
+    if randomid == student_id:
+        print("Winner")
+    else:
+        print("Loser")
