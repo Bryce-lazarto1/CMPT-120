@@ -4,17 +4,16 @@
 
 def bust():
 
-    values = [random.randint(1, 11) for _ in range(3)]
-    total = sum(values)
-
+    value = random.randint(1, 11) for x in range(3)
+    total = sum(value)
     if total <= 21:
         return total
-    elif 11 in values and total - 10 <= 21:
+    elif (11 = value):
         return total - 10
     else:
         return 0
 result = bust()
-print("Result")
+print("result")
     
 def main():
     

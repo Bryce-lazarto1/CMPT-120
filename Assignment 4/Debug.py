@@ -5,11 +5,11 @@ def printHello():
 def printName(x):
     print(x)
     
-def addition(x, y):
+def add(x, y):
     #add x and y together and return them
     return x+y
 
-def smaller(i, j):
+def small(i, j):
     #if i is smaller than j, return i
     #if j is smaller than i, return j
     #if they're even, return 0
