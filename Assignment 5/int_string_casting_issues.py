@@ -9,6 +9,10 @@ and ofc, if you're stuck, don't hesitate to email
 '''
 def main():
     try:
-    IntInput = int(input("Enter an int (but enter a string to see the error)"))
+        intInput = int(input("Enter an int (but enter a string to see the error)"))
+    except ValueError
+        print("thats not a integer")
+        return
+    print("you entered a integer")
 
 main()
